@@ -1,2 +1,2 @@
 # node-app
-Sample Flask App
+Sample Express App
