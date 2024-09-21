@@ -1,11 +1,17 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const express = require('express');
+const app = express();
+const PORT = 3000;
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+// Without middleware
+app.get('/', function (req, res) {
+	res.redirect('/user');
+});
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
+app.get('/user', function (req, res) {
+	res.send("Redirected to User Page");
+});
+
+app.listen(PORT, function (err) {
+	if (err) console.log(err);
+	console.log("Server listening on PORT", PORT);
+});
