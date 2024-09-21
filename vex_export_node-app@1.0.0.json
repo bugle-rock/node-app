@@ -1,0 +1,1767 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "66ef40cd1eae77c4df57a6a0",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2024-09-21T21:55:25Z",
+      "tools": [
+        {
+          "name": "Endor Labs Inc",
+          "version": "v1.6.537"
+        }
+      ],
+      "component": {
+        "bom-ref": "npm://node-app@1.0.0",
+        "type": "application",
+        "name": "npm://node-app@1.0.0",
+        "version": "1.0.0",
+        "hashes": [
+          {
+            "alg": "SHA-256",
+            "content": "0ff4ba8cb90d1a79f66d7e10f75bd7d3e16f36cb12a56a9af3e42961efb44074"
+          }
+        ],
+        "purl": "pkg:npm/node-app@1.0.0"
+      }
+    },
+    "vulnerabilities": [
+      {
+        "id": "CVE-2017-16026",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/request/request/issues/1904"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/request/request/pull/2018"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/request/request/pull/2022"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/request/request/commit/29d81814bc16bc79cb112b4face8be6fc00061dd"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/request/request"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 5.9,
+            "severity": "medium",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+          }
+        ],
+        "cwes": [
+          201
+        ],
+        "description": "request@2.40.0 has a medium severity vulnerability identified by GHSA-7xfp-9c55-5vqj: Remote Memory Exposure in request. This vulnerability was fixed in version 2.68.0.\nrequest@2.40.0 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0. request@2.40.0 is a transitive dependency of 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require request 2.68.0 or higher. Consider other options to upgrade request to 2.68.0 (current: 2.40.0, latest: 3.0.5).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16026"
+          }
+        ],
+        "published": "2018-11-09T17:44:01Z",
+        "updated": "2023-11-08T03:59:00Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/request@2.40.0"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2022-24999",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs/pull/428"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs/commit/4310742efbd8c03f6495f07906b45213da0a32ec"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs/commit/727ef5d34605108acb3513f72d5435972ed15b68"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs/commit/73205259936317b40f447c5cdb71c5b341848e1b"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs/commit/8b4cc14cda94a5c89341b77e5fe435ec6c41be2d"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs/commit/ba24e74dd17931f825adb52f5633e48293b584e1"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs/commit/e799ba57e573a30c14b67c1889c7c04d508b9105"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs/commit/ed0f5dcbef4b168a8ae299d78b1e4a2e9b1baf1f"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs/commit/f945393cfe442fe8c6e62b4156fd35452c0686ee"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs/commit/fc3682776670524a42e19709ec4a8138d0d7afda"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/expressjs/express/releases/tag/4.17.3"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/n8tz/CVE-2022-24999"
+            }
+          },
+          {
+            "source": {
+              "url": "https://lists.debian.org/debian-lts-announce/2023/01/msg00039.html"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 7.5,
+            "severity": "high",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          }
+        ],
+        "cwes": [
+          1321
+        ],
+        "description": "qs@1.0.2 has a high severity vulnerability identified by GHSA-hrpp-h998-j3pp: qs vulnerable to Prototype Pollution. This vulnerability was fixed in version 6.2.4.\nqs@1.0.2 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0. qs@1.0.2 is a transitive dependency of 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require qs 6.2.4 or higher. Consider other options to upgrade qs to 6.2.4 (current: 1.0.2, latest: 6.13.0).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-24999"
+          }
+        ],
+        "published": "2022-11-27T00:30:50Z",
+        "updated": "2024-02-13T20:35:49Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/qs@1.0.2"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2017-1000048",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs/issues/200"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs/commit/beade029171b8cef9cee0d03ebe577e2dd84976d"
+            }
+          },
+          {
+            "source": {
+              "url": "https://access.redhat.com/errata/RHSA-2017:2672"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/ljharb/qs"
+            }
+          },
+          {
+            "source": {
+              "url": "https://snyk.io/vuln/npm:qs:20170213"
+            }
+          },
+          {
+            "source": {
+              "url": "https://www.npmjs.com/advisories/1469"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 7.5,
+            "severity": "high",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          }
+        ],
+        "cwes": [
+          20
+        ],
+        "description": "qs@1.0.2 has a high severity vulnerability identified by GHSA-gqgv-6jq5-jjj9: Prototype Pollution Protection Bypass in qs. This vulnerability was fixed in version 6.0.4.\nqs@1.0.2 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0. qs@1.0.2 is a transitive dependency of 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require qs 6.0.4 or higher. Consider other options to upgrade qs to 6.0.4 (current: 1.0.2, latest: 6.13.0).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-1000048"
+          }
+        ],
+        "published": "2020-04-30T17:16:47Z",
+        "updated": "2023-11-08T03:58:42Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/qs@1.0.2"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-8203",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash/issues/4744"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash/issues/4874"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/github/advisory-database/pull/2884"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash/commit/c84fe82760fb2d3e03a63379b297a1cc1a2fce12"
+            }
+          },
+          {
+            "source": {
+              "url": "https://hackerone.com/reports/712065"
+            }
+          },
+          {
+            "source": {
+              "url": "https://hackerone.com/reports/864701"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash/wiki/Changelog#v41719"
+            }
+          },
+          {
+            "source": {
+              "url": "https://security.netapp.com/advisory/ntap-20200724-0006"
+            }
+          },
+          {
+            "source": {
+              "url": "https://web.archive.org/web/20210914001339/https://github.com/lodash/lodash/issues/4744"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 7.4,
+            "severity": "high",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H"
+          }
+        ],
+        "cwes": [
+          1321,
+          770
+        ],
+        "description": "lodash@3.7.0 has a high severity vulnerability identified by GHSA-p6mc-m468-83gw: Prototype Pollution in lodash. This vulnerability was fixed in version 4.17.19.\nlodash@3.7.0 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require lodash 4.17.19 or higher. Consider other options to upgrade lodash to 4.17.19 (current: 3.7.0, latest: 5.0.0).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-8203"
+          }
+        ],
+        "published": "2020-07-15T19:15:48Z",
+        "updated": "2023-11-08T04:04:15Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/lodash@3.7.0"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2017-16138",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/broofa/node-mime/issues/167"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/broofa/mime/commit/1df903fdeb9ae7eaa048795b8d580ce2c98f40b0"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/broofa/mime/commit/855d0c4b8b22e4a80b9401a81f2872058eae274d"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/broofa/mime"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 7.5,
+            "severity": "high",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          }
+        ],
+        "cwes": [
+          400
+        ],
+        "description": "mime@1.2.11 has a high severity vulnerability identified by GHSA-wrvr-8mpx-r7pp: mime Regular Expression Denial of Service when MIME lookup performed on untrusted user input. This vulnerability was fixed in version 1.4.1.\nmime@1.2.11 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0. mime@1.2.11 is a transitive dependency of 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require mime 1.4.1 or higher. Consider other options to upgrade mime to 1.4.1 (current: 1.2.11, latest: 4.0.4).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2017-16138"
+          }
+        ],
+        "published": "2018-07-20T16:20:52Z",
+        "updated": "2023-11-08T03:59:07Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/mime@1.2.11"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2022-29167",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/mozilla/hawk/security/advisories/GHSA-44pw-h2cw-w3vq"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/mozilla/hawk/pull/286"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/mozilla/hawk/commit/d10d72ca82db967f6c5fcf866ff78e3ca25ce1ab"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/mozilla/hawk"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 7.5,
+            "severity": "high",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          }
+        ],
+        "cwes": [
+          1333,
+          400
+        ],
+        "description": "hawk@1.1.1 has a high severity vulnerability identified by GHSA-44pw-h2cw-w3vq: Uncontrolled Resource Consumption in Hawk. This vulnerability was fixed in version 9.0.1.\nhawk@1.1.1 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0. hawk@1.1.1 is a transitive dependency of 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require hawk 9.0.1 or higher. Consider other options to upgrade hawk to 9.0.1 (current: 1.1.1, latest: 9.0.2).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-29167"
+          }
+        ],
+        "published": "2022-05-23T20:18:14Z",
+        "updated": "2023-11-08T04:09:08Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/hawk@1.1.1"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2018-16487",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash/commit/90e6199a161b6445b01454517b40ef65ebecd2ad"
+            }
+          },
+          {
+            "source": {
+              "url": "https://hackerone.com/reports/380873"
+            }
+          },
+          {
+            "source": {
+              "url": "https://security.netapp.com/advisory/ntap-20190919-0004"
+            }
+          },
+          {
+            "source": {
+              "url": "https://www.npmjs.com/advisories/782"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 5.6,
+            "severity": "medium",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L"
+          }
+        ],
+        "cwes": [
+          400
+        ],
+        "description": "lodash@3.7.0 has a medium severity vulnerability identified by GHSA-4xc9-xhrj-v574: Prototype Pollution in lodash. This vulnerability was fixed in version 4.17.11.\nlodash@3.7.0 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require lodash 4.17.11 or higher. Consider other options to upgrade lodash to 4.17.11 (current: 3.7.0, latest: 5.0.0).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-16487"
+          },
+          {
+            "url": "https://github.com/advisories/GHSA-4xc9-xhrj-v574"
+          }
+        ],
+        "published": "2019-02-07T18:16:48Z",
+        "updated": "2023-11-08T04:00:00Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/lodash@3.7.0"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2023-28155",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/request/request/issues/3442"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/cypress-io/request/pull/28"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/github/advisory-database/pull/2500"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/request/request/pull/3444"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/cypress-io/request/commit/c5bcf21d40fb61feaff21a0e5a2b3934a440024f"
+            }
+          },
+          {
+            "source": {
+              "url": "https://doyensec.com/resources/Doyensec_Advisory_RequestSSRF_Q12023.pdf"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/cypress-io/request/blob/master/lib/redirect.js#L116"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/cypress-io/request/releases/tag/v3.0.0"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/request/request"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/request/request/blob/master/lib/redirect.js#L111"
+            }
+          },
+          {
+            "source": {
+              "url": "https://security.netapp.com/advisory/ntap-20230413-0007"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 6.1,
+            "severity": "medium",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+          }
+        ],
+        "cwes": [
+          918
+        ],
+        "description": "request@2.88.2 has a medium severity vulnerability identified by GHSA-p8p7-x288-28g6: Server-Side Request Forgery in Request. There is no known fix for this vulnerability at this time.\nrequest@2.88.2 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev.",
+        "recommendation": "No patch upgrades available to fix the issue. Check the security advisory for alternative controls or actions.",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-28155"
+          }
+        ],
+        "published": "2023-03-16T15:30:19Z",
+        "updated": "2024-03-21T17:47:20Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/request@2.88.2"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2021-3807",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/issues/38#issuecomment-924086311"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/issues/38#issuecomment-925924774"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/commit/419250fa510bf31b4cc672e76537a64f9332e1f1"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/commit/75a657da7af875b2e2724fd6331bf0a4b23d3c9a"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/commit/8d1d7cdb586269882c4bdc1b7325d0c58c8f76f9"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/commit/c3c0b3f2736b9c01feec0fef33980c43720dcde8"
+            }
+          },
+          {
+            "source": {
+              "url": "https://app.snyk.io/vuln/SNYK-JS-ANSIREGEX-1583908"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/releases/tag/v6.0.1"
+            }
+          },
+          {
+            "source": {
+              "url": "https://huntr.dev/bounties/5b3cf33b-ede0-4398-9974-800876dfd994"
+            }
+          },
+          {
+            "source": {
+              "url": "https://security.netapp.com/advisory/ntap-20221014-0002"
+            }
+          },
+          {
+            "source": {
+              "url": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 7.5,
+            "severity": "high",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          }
+        ],
+        "cwes": [
+          1333,
+          697
+        ],
+        "description": "ansi-regex@0.2.1 has a high severity vulnerability identified by GHSA-93q8-gq69-wqmw: Inefficient Regular Expression Complexity in chalk/ansi-regex. This vulnerability was fixed in version 6.0.1.\n2 packages import ansi-regex@0.2.1 directly. See the list of all dependency paths for details.",
+        "detail": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev.",
+        "recommendation": "Upgrade ansi-regex to version 6.0.1 (current: 0.2.1, latest: 6.1.0).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3807"
+          }
+        ],
+        "published": "2021-09-20T20:20:09Z",
+        "updated": "2023-11-08T04:06:25Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/ansi-regex@0.2.1"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2018-3728",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/hapijs/hoek/commit/32ed5c9413321fbc37da5ca81a7cbab693786dee"
+            }
+          },
+          {
+            "source": {
+              "url": "https://hackerone.com/reports/310439"
+            }
+          },
+          {
+            "source": {
+              "url": "https://access.redhat.com/errata/RHSA-2018:1263"
+            }
+          },
+          {
+            "source": {
+              "url": "https://access.redhat.com/errata/RHSA-2018:1264"
+            }
+          },
+          {
+            "source": {
+              "url": "https://snyk.io/vuln/npm:hoek:20180212"
+            }
+          },
+          {
+            "source": {
+              "url": "https://www.npmjs.com/advisories/566"
+            }
+          },
+          {
+            "source": {
+              "url": "http://www.securityfocus.com/bid/103108"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 8.8,
+            "severity": "high",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+          }
+        ],
+        "cwes": [
+          1321
+        ],
+        "description": "hoek@0.9.1 has a high severity vulnerability identified by GHSA-jp4x-w63m-7wgm: Prototype Pollution in hoek. This vulnerability was fixed in version 4.2.1.\n3 packages import hoek@0.9.1 directly. See the list of all dependency paths for details.",
+        "detail": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev.",
+        "recommendation": "Upgrade hoek to version 4.2.1 (current: 0.9.1, latest: 6.1.3).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3728"
+          },
+          {
+            "url": "https://github.com/advisories/GHSA-jp4x-w63m-7wgm"
+          }
+        ],
+        "published": "2018-04-26T15:25:17Z",
+        "updated": "2023-11-08T04:00:17Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/hoek@0.9.1"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2022-33987",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/sindresorhus/got/pull/2047"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/sindresorhus/got/commit/861ccd9ac2237df762a9e2beed7edd88c60782dc"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/sindresorhus/got"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/sindresorhus/got/compare/v12.0.3...v12.1.0"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/sindresorhus/got/releases/tag/v11.8.5"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/sindresorhus/got/releases/tag/v12.1.0"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 5.3,
+            "severity": "medium",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+          }
+        ],
+        "cwes": [],
+        "description": "got@3.3.1 has a medium severity vulnerability identified by GHSA-pfrx-2q88-qq97: Got allows a redirect to a UNIX socket. This vulnerability was fixed in version 11.8.5.\ngot@3.3.1 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0. got@3.3.1 is a transitive dependency of 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require got 11.8.5 or higher. Consider other options to upgrade got to 11.8.5 (current: 3.3.1, latest: 14.4.2).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-33987"
+          }
+        ],
+        "published": "2022-06-19T00:00:21Z",
+        "updated": "2023-11-08T04:09:41Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/got@3.3.1"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2024-45296",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/pillarjs/path-to-regexp/security/advisories/GHSA-9wv6-86v2-598j"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/pillarjs/path-to-regexp/commit/29b96b4a1de52824e1ca0f49a701183cc4ed476f"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/pillarjs/path-to-regexp/commit/60f2121e9b66b7b622cc01080df0aabda9eedee6"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/pillarjs/path-to-regexp/commit/925ac8e3c5780b02f58cbd4e52f95da8ad2ac485"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/pillarjs/path-to-regexp/commit/d31670ae8f6e69cbfd56e835742195b7d10942ef"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/pillarjs/path-to-regexp/commit/f1253b47b347dcb909e3e80b0eb2649109e59894"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/pillarjs/path-to-regexp"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/pillarjs/path-to-regexp/releases/tag/v6.3.0"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 5.3,
+            "severity": "medium",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+          }
+        ],
+        "cwes": [
+          1333
+        ],
+        "description": "path-to-regexp@0.1.7 has a medium severity vulnerability identified by GHSA-9wv6-86v2-598j: path-to-regexp outputs backtracking regular expressions. This vulnerability was fixed in version 0.1.10.\npath-to-regexp@0.1.7 is a transitive dependency of node-app@1.0.0 via external direct dependency express@4.19.2.",
+        "detail": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev.",
+        "recommendation": "Check if you can use a newer version of express (current: 4.19.2, latest: 5.0.0) that requires path-to-regexp 0.1.10 or higher (current: 0.1.7, latest: 8.1.0). See for example express@4.20.0 (path-to-regexp@0.1.10), express@4.21.0 (path-to-regexp@0.1.10), express@5.0.0-beta.1 (path-to-regexp@3.2.0), or latest version express@5.0.0 (path-to-regexp@8.1.0).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45296"
+          }
+        ],
+        "published": "2024-09-09T20:19:15Z",
+        "updated": "2024-09-12T17:09:42Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/path-to-regexp@0.1.7"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2024-43800",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/expressjs/serve-static/security/advisories/GHSA-cm22-4g7w-348p"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/expressjs/serve-static/commit/0c11fad159898cdc69fd9ab63269b72468ecaf6b"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/expressjs/serve-static/commit/ce730896fddce1588111d9ef6fdf20896de5c6fa"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/expressjs/serve-static"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 5,
+            "severity": "medium",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L"
+          }
+        ],
+        "cwes": [
+          79
+        ],
+        "description": "serve-static@1.15.0 has a medium severity vulnerability identified by GHSA-cm22-4g7w-348p: serve-static vulnerable to template injection that can lead to XSS. This vulnerability was fixed in version 1.16.0.\nserve-static@1.15.0 is a transitive dependency of node-app@1.0.0 via external direct dependency express@4.19.2.",
+        "detail": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev.",
+        "recommendation": "Check if you can use a newer version of express (current: 4.19.2, latest: 5.0.0) that requires serve-static 1.16.0 or higher (current: 1.15.0, latest: 2.1.0). See for example express@4.20.0 (serve-static@1.16.0), express@4.21.0 (serve-static@1.16.2), express@5.0.0-beta.1 (serve-static@2.0.0-beta.1), or latest version express@5.0.0 (serve-static@2.1.0).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43800"
+          }
+        ],
+        "published": "2024-09-10T19:42:33Z",
+        "updated": "2024-09-10T19:57:33Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/serve-static@1.15.0"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2024-43799",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/pillarjs/send/security/advisories/GHSA-m6fv-jmcg-4jfg"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/pillarjs/send/commit/ae4f2989491b392ae2ef3b0015a019770ae65d35"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/pillarjs/send"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 5,
+            "severity": "medium",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L"
+          }
+        ],
+        "cwes": [
+          79
+        ],
+        "description": "send@0.18.0 has a medium severity vulnerability identified by GHSA-m6fv-jmcg-4jfg: send vulnerable to template injection that can lead to XSS. This vulnerability was fixed in version 0.19.0.\n2 packages import send@0.18.0 directly. See the list of all dependency paths for details.",
+        "detail": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev.",
+        "recommendation": "Upgrade send to version 0.19.0 (current: 0.18.0, latest: 1.13.5).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43799"
+          }
+        ],
+        "published": "2024-09-10T19:42:41Z",
+        "updated": "2024-09-10T19:57:33Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/send@0.18.0"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2021-3807",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/issues/38#issuecomment-924086311"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/issues/38#issuecomment-925924774"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/commit/419250fa510bf31b4cc672e76537a64f9332e1f1"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/commit/75a657da7af875b2e2724fd6331bf0a4b23d3c9a"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/commit/8d1d7cdb586269882c4bdc1b7325d0c58c8f76f9"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/commit/c3c0b3f2736b9c01feec0fef33980c43720dcde8"
+            }
+          },
+          {
+            "source": {
+              "url": "https://app.snyk.io/vuln/SNYK-JS-ANSIREGEX-1583908"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/chalk/ansi-regex/releases/tag/v6.0.1"
+            }
+          },
+          {
+            "source": {
+              "url": "https://huntr.dev/bounties/5b3cf33b-ede0-4398-9974-800876dfd994"
+            }
+          },
+          {
+            "source": {
+              "url": "https://security.netapp.com/advisory/ntap-20221014-0002"
+            }
+          },
+          {
+            "source": {
+              "url": "https://www.oracle.com/security-alerts/cpuapr2022.html"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 7.5,
+            "severity": "high",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          }
+        ],
+        "cwes": [
+          1333,
+          697
+        ],
+        "description": "ansi-regex@2.1.1 has a high severity vulnerability identified by GHSA-93q8-gq69-wqmw: Inefficient Regular Expression Complexity in chalk/ansi-regex. This vulnerability was fixed in version 6.0.1.\nansi-regex@2.1.1 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0. ansi-regex@2.1.1 is a transitive dependency of 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require ansi-regex 6.0.1 or higher. Consider other options to upgrade ansi-regex to 6.0.1 (current: 2.1.1, latest: 6.1.0).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3807"
+          }
+        ],
+        "published": "2021-09-20T20:20:09Z",
+        "updated": "2023-11-08T04:06:25Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/ansi-regex@2.1.1"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2019-1010266",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash/issues/3359"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash/commit/5c08f18d365b64063bfbfa686cbb97cdd6267347"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash/wiki/Changelog"
+            }
+          },
+          {
+            "source": {
+              "url": "https://security.netapp.com/advisory/ntap-20190919-0004"
+            }
+          },
+          {
+            "source": {
+              "url": "https://snyk.io/vuln/SNYK-JS-LODASH-73639"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 6.5,
+            "severity": "medium",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+          }
+        ],
+        "cwes": [
+          400
+        ],
+        "description": "lodash@3.7.0 has a medium severity vulnerability identified by GHSA-x5rq-j2xg-h7qm: Regular Expression Denial of Service (ReDoS) in lodash. This vulnerability was fixed in version 4.17.11.\nlodash@3.7.0 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require lodash 4.17.11 or higher. Consider other options to upgrade lodash to 4.17.11 (current: 3.7.0, latest: 5.0.0).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1010266"
+          }
+        ],
+        "published": "2019-07-19T16:13:07Z",
+        "updated": "2024-08-01T07:56:36Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/lodash@3.7.0"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2018-3721",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a"
+            }
+          },
+          {
+            "source": {
+              "url": "https://hackerone.com/reports/310443"
+            }
+          },
+          {
+            "source": {
+              "url": "https://security.netapp.com/advisory/ntap-20190919-0004"
+            }
+          },
+          {
+            "source": {
+              "url": "https://www.npmjs.com/advisories/577"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 6.5,
+            "severity": "medium",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+          }
+        ],
+        "cwes": [
+          1321,
+          471
+        ],
+        "description": "lodash@3.7.0 has a medium severity vulnerability identified by GHSA-fvqr-27wr-82fm: Prototype Pollution in lodash. This vulnerability was fixed in version 4.17.5.\nlodash@3.7.0 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require lodash 4.17.5 or higher. Consider other options to upgrade lodash to 4.17.5 (current: 3.7.0, latest: 5.0.0).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3721"
+          },
+          {
+            "url": "https://github.com/advisories/GHSA-fvqr-27wr-82fm"
+          }
+        ],
+        "published": "2018-07-26T15:14:52Z",
+        "updated": "2024-04-22T19:49:51Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/lodash@3.7.0"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-28499",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/yeikos/js.merge/commit/7b0ddc2701d813f2ba289b32d6a4b9d4cc235fb4"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/yeikos/js.merge/blob/56ca75b2dd0f2820f1e08a49f62f04bbfb8c5f8f/src/index.ts#L64"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/yeikos/js.merge/blob/master/src/index.ts#L64"
+            }
+          },
+          {
+            "source": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1071049"
+            }
+          },
+          {
+            "source": {
+              "url": "https://snyk.io/vuln/SNYK-JS-MERGE-1042987"
+            }
+          },
+          {
+            "source": {
+              "url": "https://vuldb.com/?id.170146"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 9.8,
+            "severity": "critical",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          }
+        ],
+        "cwes": [
+          915
+        ],
+        "description": "merge@1.2.1 has a critical vulnerability identified by GHSA-7wpw-2hjm-89gp: Prototype Pollution in merge. This vulnerability was fixed in version 2.1.1.\nmerge@1.2.1 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0. merge@1.2.1 is a transitive dependency of 28@3.4.0.",
+        "detail": "A critical severity known vulnerability has been assessed against this version of the software package according to the information in OSV.dev",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require merge 2.1.1 or higher. Consider other options to upgrade merge to 2.1.1 (current: 1.2.1, latest: 2.1.1).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-28499"
+          }
+        ],
+        "published": "2021-05-04T20:18:47Z",
+        "updated": "2024-09-03T03:26:49Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/merge@1.2.1"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-36604",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/hapijs/hoek/issues/352"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/hapijs/hoek/commit/4d0804bc6135ad72afdc5e1ec002b935b2f5216a"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/hapijs/hoek/commit/948baf98634a5c206875b67d11368f133034fa90"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 8.1,
+            "severity": "high",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          }
+        ],
+        "cwes": [
+          1321
+        ],
+        "description": "hoek@0.9.1 has a high severity vulnerability identified by GHSA-c429-5p7v-vgjp: hoek subject to prototype pollution via the clone function.. There is no known fix for this vulnerability at this time.\n3 packages import hoek@0.9.1 directly. See the list of all dependency paths for details.",
+        "detail": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev.",
+        "recommendation": "No patch upgrades available to fix the issue. Check the security advisory for alternative controls or actions.",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-36604"
+          }
+        ],
+        "published": "2022-09-25T00:00:27Z",
+        "updated": "2023-11-08T04:03:48Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/hoek@0.9.1"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2024-45590",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/expressjs/body-parser/security/advisories/GHSA-qwcr-r2fm-qrc7"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/expressjs/body-parser/commit/b2695c4450f06ba3b0ccf48d872a229bb41c9bce"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/expressjs/body-parser"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 7.5,
+            "severity": "high",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          }
+        ],
+        "cwes": [
+          405
+        ],
+        "description": "body-parser@1.20.2 has a high severity vulnerability identified by GHSA-qwcr-r2fm-qrc7: body-parser vulnerable to denial of service when url encoding is enabled. This vulnerability was fixed in version 1.20.3.\nbody-parser@1.20.2 is a transitive dependency of node-app@1.0.0 via external direct dependency express@4.19.2.",
+        "detail": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev.",
+        "recommendation": "Check if you can use a newer version of express (current: 4.19.2, latest: 5.0.0) that requires body-parser 1.20.3 or higher (current: 1.20.2, latest: 2.0.1). See for example express@4.20.0 (body-parser@1.20.3), express@4.21.0 (body-parser@1.20.3), express@5.0.0-beta.1 (body-parser@2.0.0-beta.1), or latest version express@5.0.0 (body-parser@2.0.1).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-45590"
+          }
+        ],
+        "published": "2024-09-10T15:52:39Z",
+        "updated": "2024-09-10T19:01:08Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/body-parser@1.20.2"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2023-26136",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/salesforce/tough-cookie/issues/282"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/salesforce/tough-cookie/commit/12d474791bb856004e858fdb1c47b7608d09cf6e"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/salesforce/tough-cookie"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/salesforce/tough-cookie/releases/tag/v4.1.3"
+            }
+          },
+          {
+            "source": {
+              "url": "https://lists.debian.org/debian-lts-announce/2023/07/msg00010.html"
+            }
+          },
+          {
+            "source": {
+              "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3HUE6ZR5SL73KHL7XUPAOEL6SB7HUDT2"
+            }
+          },
+          {
+            "source": {
+              "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6PVVPNSAGSDS63HQ74PJ7MZ3MU5IYNVZ"
+            }
+          },
+          {
+            "source": {
+              "url": "https://security.netapp.com/advisory/ntap-20240621-0006"
+            }
+          },
+          {
+            "source": {
+              "url": "https://security.snyk.io/vuln/SNYK-JS-TOUGHCOOKIE-5672873"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 9.8,
+            "severity": "critical",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          }
+        ],
+        "cwes": [
+          1321
+        ],
+        "description": "tough-cookie@2.5.0 has a critical vulnerability identified by GHSA-72xf-g2v4-qvf3: tough-cookie Prototype Pollution vulnerability. This vulnerability was fixed in version 4.1.3.\n2 packages import tough-cookie@2.5.0 directly. See the list of all dependency paths for details.",
+        "detail": "A critical severity known vulnerability has been assessed against this version of the software package according to the information in OSV.dev",
+        "recommendation": "Upgrade tough-cookie to version 4.1.3 (current: 2.5.0, latest: 5.0.0).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-26136"
+          }
+        ],
+        "published": "2023-07-01T06:30:16Z",
+        "updated": "2024-06-21T21:33:53Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/tough-cookie@2.5.0"
+          }
+        ]
+      },
+      {
+        "id": "GHSA-xc7v-wxcw-j472",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/request/tunnel-agent/commit/9ca95ec7219daface8a6fc2674000653de0922c0"
+            }
+          },
+          {
+            "source": {
+              "url": "https://gist.github.com/ChALkeR/fd6b2c445834244e7d440a043f9d2ff4"
+            }
+          },
+          {
+            "source": {
+              "url": "https://www.npmjs.com/advisories/598"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 0,
+            "severity": "medium",
+            "method": "CVSSv3"
+          }
+        ],
+        "cwes": [
+          200
+        ],
+        "description": "tunnel-agent@0.4.3 has a medium severity vulnerability identified by GHSA-xc7v-wxcw-j472: Memory Exposure in tunnel-agent. This vulnerability was fixed in version 0.6.0.\ntunnel-agent@0.4.3 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0. tunnel-agent@0.4.3 is a transitive dependency of 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require tunnel-agent 0.6.0 or higher. Consider other options to upgrade tunnel-agent to 0.6.0 (current: 0.4.3, latest: 1.13.8).",
+        "advisories": [],
+        "published": "2019-06-03T17:08:26Z",
+        "updated": "2020-08-31T18:29:19Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/tunnel-agent@0.4.3"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2016-2515",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/hueniverse/hawk/issues/168"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/hueniverse/hawk/commit/0833f99ba64558525995a7e21d4093da1f3e15fa"
+            }
+          },
+          {
+            "source": {
+              "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1309721"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/hueniverse/hawk"
+            }
+          },
+          {
+            "source": {
+              "url": "https://www.npmjs.com/advisories/77"
+            }
+          },
+          {
+            "source": {
+              "url": "http://www.openwall.com/lists/oss-security/2016/02/20/1"
+            }
+          },
+          {
+            "source": {
+              "url": "http://www.openwall.com/lists/oss-security/2016/02/20/2"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 7.5,
+            "severity": "high",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          }
+        ],
+        "cwes": [
+          1333
+        ],
+        "description": "hawk@1.1.1 has a high severity vulnerability identified by GHSA-jcpv-g9rr-qxrc: Regular Expression Denial of Service in hawk. This vulnerability was fixed in version 4.1.1.\nhawk@1.1.1 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0. hawk@1.1.1 is a transitive dependency of 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as high severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require hawk 4.1.1 or higher. Consider other options to upgrade hawk to 4.1.1 (current: 1.1.1, latest: 9.0.2).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-2515"
+          },
+          {
+            "url": "https://github.com/advisories/GHSA-jcpv-g9rr-qxrc"
+          }
+        ],
+        "published": "2018-07-31T22:52:00Z",
+        "updated": "2023-11-08T03:58:24Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/hawk@1.1.1"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2024-43796",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/expressjs/express/security/advisories/GHSA-qw6h-vgh9-j6wx"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/expressjs/express/commit/54271f69b511fea198471e6ff3400ab805d6b553"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/expressjs/express"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 5,
+            "severity": "medium",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L"
+          }
+        ],
+        "cwes": [
+          79
+        ],
+        "description": "express@4.19.2 has a medium severity vulnerability identified by GHSA-qw6h-vgh9-j6wx: express vulnerable to XSS via response.redirect(). This vulnerability was fixed in version 4.20.0.\nexpress@4.19.2 is a direct dependency of node-app@1.0.0.",
+        "detail": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev.",
+        "recommendation": "Update node-app@1.0.0 to use express version 4.20.0 (current: 4.19.2, latest: 5.0.0).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43796"
+          }
+        ],
+        "published": "2024-09-10T19:41:04Z",
+        "updated": "2024-09-10T19:57:33Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/express@4.19.2"
+          }
+        ]
+      },
+      {
+        "id": "CVE-2020-28500",
+        "references": [
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash/pull/5065"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash/pull/5065/commits/02906b8191d3c100c193fe6f7b27d1c40f200bb7"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash/commit/c4847ebe7d14540bb28a8b932a9ce1b9ecbfee1a"
+            }
+          },
+          {
+            "source": {
+              "url": "https://www.oracle.com/security-alerts/cpuoct2021.html"
+            }
+          },
+          {
+            "source": {
+              "url": "https://www.oracle.com/security-alerts/cpujul2022.html"
+            }
+          },
+          {
+            "source": {
+              "url": "https://www.oracle.com/security-alerts/cpujan2022.html"
+            }
+          },
+          {
+            "source": {
+              "url": "https://www.oracle.com//security-alerts/cpujul2021.html"
+            }
+          },
+          {
+            "source": {
+              "url": "https://snyk.io/vuln/SNYK-JS-LODASH-1018905"
+            }
+          },
+          {
+            "source": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1074893"
+            }
+          },
+          {
+            "source": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBLODASH-1074895"
+            }
+          },
+          {
+            "source": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1074892"
+            }
+          },
+          {
+            "source": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1074894"
+            }
+          },
+          {
+            "source": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGFUJIONWEBJARS-1074896"
+            }
+          },
+          {
+            "source": {
+              "url": "https://security.netapp.com/advisory/ntap-20210312-0006"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash/blob/npm/trimEnd.js%23L8"
+            }
+          },
+          {
+            "source": {
+              "url": "https://github.com/lodash/lodash"
+            }
+          },
+          {
+            "source": {
+              "url": "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf"
+            }
+          }
+        ],
+        "ratings": [
+          {
+            "score": 5.3,
+            "severity": "medium",
+            "method": "CVSSv3",
+            "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+          }
+        ],
+        "cwes": [
+          1333,
+          400
+        ],
+        "description": "lodash@3.7.0 has a medium severity vulnerability identified by GHSA-29mw-wpgm-hmr9: Regular Expression Denial of Service (ReDoS) in lodash. This vulnerability was fixed in version 4.17.21.\nlodash@3.7.0 is a transitive dependency of node-app@1.0.0 via external direct dependency 28@3.4.0.",
+        "detail": "This package version contains a vulnerability that has been marked as medium severity according to the information in OSV.dev.",
+        "recommendation": "No newer versions of 28 (current: 3.4.0, latest: 3.4.0) require lodash 4.17.21 or higher. Consider other options to upgrade lodash to 4.17.21 (current: 3.7.0, latest: 5.0.0).",
+        "advisories": [
+          {
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-28500"
+          }
+        ],
+        "published": "2022-01-06T20:30:46Z",
+        "updated": "2024-08-01T09:11:58Z",
+        "credits": {
+          "individuals": []
+        },
+        "analysis": {},
+        "affects": [
+          {
+            "ref": "pkg:npm/lodash@3.7.0"
+          }
+        ]
+      }
+    ]
+  }
+  
